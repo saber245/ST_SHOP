@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('q.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #000; /* تغيير لون الخلفية إلى الأسود */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Times New Roman', serif; /* تغيير الخط الخاص بالعنوان */
+    font-size: 2em;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    width: 200px; /* تحديد عرض المنتج */
+    background-color: rgba(255, 255, 255, 0.8); /* خلفية شبه شفافة للمنتجات */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للمنتجات */
+}
+
+.product img {
+    width: 100%; /* جعل الصورة تتناسب مع عرض العنصر */
+    height: 150px; /* تحديد ارتفاع ثابت للصورة */
+    object-fit: cover; /* الحفاظ على نسبة الأبعاد */
+    border-radius: 5px;
+}
+
+.price {
+    color: #333; /* لون رمادي غامق */
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9em; /* حجم الخط أصغر قليلاً */
+}
+
+footer p {
+    margin: 0;
+}
